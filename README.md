@@ -4,11 +4,6 @@ This project is a MERN (MongoDB, Express.js, React, and Node.js) Application. It
 
 The main purpose of this repo is to serve as an example of how one can deploy a modern web application using Azure Cloud Services 
 
-## Overview Architecture
-
-![alt text](architecture-diagram.png)
-
-
 ## Technology Stack 
 
 - **MongoDB**: A NoSQL database for storing application data.
