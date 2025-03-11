@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     apps: [{
       name: "app",
       script: "./server.js",
@@ -13,4 +13,4 @@ module.exports = {
         PORT: 5050
       }
     }]
-  }
+  };
