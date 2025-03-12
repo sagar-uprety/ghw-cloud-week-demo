@@ -5,13 +5,13 @@ name: Build and deploy Node.js app to Azure Web App - mern-employer-app
 
 on:
   # Trigger the workflow on push events to the main branch
-  push:
-    branches:
-      - main
-    # Only trigger if changes are made to these files or directories
-    paths:
-      - .github/workflows/azure-web-app-backend-pipeline.yml
-      - 'app/server/**'
+  # push:
+  #   branches:
+  #     - main
+  #   # Only trigger if changes are made to these files or directories
+  #   paths:
+  #     - .github/workflows/azure-web-app-backend-pipeline.yml
+  #     - 'app/server/**'
   
   # Allow manual triggering of the workflow from the GitHub Actions UI
   workflow_dispatch:

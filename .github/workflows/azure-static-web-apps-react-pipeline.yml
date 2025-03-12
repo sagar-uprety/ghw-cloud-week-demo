@@ -2,21 +2,23 @@ name: Azure Static Web Apps CI/CD
 
 on:
   # Trigger on pushes to the main branch
-  push:
-    branches:
-      - main
-    paths:
-      - .github/workflows/azure-static-web-apps-react-pipeline.yml
-      - 'app/client/**'
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - .github/workflows/azure-static-web-apps-react-pipeline.yml
+  #     - 'app/client/**'
   
-  # Trigger on pull request events targeting the main branch
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - main
-    paths:
-      - .github/workflows/main_mern-employer-app.yml
-      - 'app/client/**'
+  # # Trigger on pull request events targeting the main branch
+  # pull_request:
+  #   types: [opened, synchronize, reopened, closed]
+  #   branches:
+  #     - main
+  #   paths:
+  #     - .github/workflows/main_mern-employer-app.yml
+  #     - 'app/client/**'
+    
+  workflow_dispatch:
 
 jobs:
   build_and_deploy_job:
